@@ -44,4 +44,76 @@ body {
 }
 .navbar .hero .button a {
   font-family: medium;
+}
+
+/*Top-Content Section*/
+.main-content {
+  width: 100%;
+  background: linear-gradient(to right, #4f4136, #222222, #272c2d);
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.main-content .left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1rem 2rem;
+}
+.main-content .left .para-1 p {
+  font-size: 5rem;
+  font-family: semibold;
+  color: #fff;
+  line-height: 1.2;
+}
+.main-content .left .para p {
+  font-size: 1.3rem;
+  color: #fff;
+}
+.main-content .left .left-bottom {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  gap: 2rem;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.main-content .left .left-bottom .button {
+  width: -moz-fit-content;
+  width: fit-content;
+  background: linear-gradient(to right, #eecd5e, #c6ce6c, #9ac572);
+  border: none;
+  border-radius: 50px;
+  padding: 0.5rem 2rem;
+}
+.main-content .left .left-bottom .button a {
+  font-family: medium;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #222222;
+}
+.main-content .left .left-bottom .button-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.main-content .left .left-bottom .button-2 p {
+  font-family: medium;
+  font-size: 1rem;
+  color: #fff;
+}
+.main-content .right {
+  width: 50%;
+  overflow: hidden;
+}
+.main-content .right img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  padding: 1rem 1rem;
+  border-radius: 50px;
 }/*# sourceMappingURL=style.css.map */
