@@ -1,4 +1,5 @@
 import React from "react";
+import { navLinks } from "../Data/NavbarData";
 
 const Navbar = () => {
   return (
@@ -7,12 +8,17 @@ const Navbar = () => {
         <h2>EnDasmu</h2>
       </div>
       <div className="hero">
-        <a href="#">Collection</a>
-        <a href="#">Market Place</a>
-        <a href="#">Community</a>
-        <div className="button">
-          <a href="#">Connect Wallet</a>
-        </div>
+        {navLinks.map((item) =>
+          item.label === "Connect Wallet" ? (
+            <div className="button" key={item.id}>
+              <a href="#">{item.label}</a>{/**Condition: 1 */}
+            </div>
+          ) : (
+            <a href="#" key={item.id}>
+              {item.label}
+            </a>
+          )
+        )}
       </div>
     </div>
   );
