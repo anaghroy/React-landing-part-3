@@ -341,3 +341,104 @@ body {
     }
   }
 }
+
+/*Artist Section*/
+.main-artist {
+  background: linear-gradient(to right, #4f4136, #222222, #272c2d);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 4rem 4rem;
+  .artist-left {
+    width: 50%;
+    // background-color: red;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    h6 {
+      font-size: 1.5rem;
+      color: #748269;
+    }
+    .heading {
+      display: flex;
+      flex-direction: column;
+      margin-top: 8%;
+      span {
+        font-size: 3.5rem;
+        font-family: semibold;
+        color: #fff;
+        line-height: 1.2;
+      }
+    }
+    .para {
+      width: 55%;
+      margin-top: 5%;
+      p {
+        font-size: 0.9rem;
+        line-break: anywhere;
+        color: #fff;
+      }
+    }
+  }
+  .artist-right {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    .image-content {
+      width: 50%;
+      background-color: #212526;
+      border-radius: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .profile {
+        height: 35%;
+        width: 45%;
+        // background-color: #2e4940;
+        border-radius: 50%;
+        margin-top: 5%;
+        position: relative;
+        overflow: hidden;
+        img {
+          width: 100%;
+          object-fit: cover;
+          object-position: center;
+        }
+      }
+      .text {
+        text-align: center;
+        margin-top: 2%;
+        .quotes {
+          display: flex;
+          flex-direction: row;
+          gap: 1rem;
+          h2 {
+            font-size: 1.5rem;
+            color: whitesmoke;
+          }
+        }
+        span {
+          font-size: 1.1rem;
+          color: whitesmoke;
+        }
+      }
+      .image {
+        height: 40%;
+        width: 100%;
+        // background-color: #2e4940;
+        border-radius: 30px;
+        margin-top: 5%;
+        position: relative;
+        overflow: hidden;
+        img {
+          width: 100%;
+          object-fit: cover;
+          object-position: center;
+          position: absolute;
+        }
+      }
+    }
+  }
+}
