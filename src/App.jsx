@@ -9,6 +9,7 @@ import { brand } from "./Data/BrandData.js";
 import Popular from "./components/Popular.jsx";
 import Artist from "./components/Artist.jsx";
 import BrandImage from "./components/BrandImage.jsx";
+import Subscribe from "./components/Subscribe.jsx";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Popular/>
       <Artist profiles={profiles}/>
       <BrandImage brand={brand}/>
+      <Subscribe/>
     </div>
   );
 };

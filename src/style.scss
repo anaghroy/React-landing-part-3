@@ -88,6 +88,7 @@ body {
       //   background-color: blue;
       gap: 2rem;
       width: fit-content;
+
       .button {
         // background-color: green;
         width: fit-content;
@@ -95,11 +96,12 @@ body {
         border: none;
         border-radius: 50px;
         padding: 0.5rem 2rem;
+        box-shadow: 5px 5px 10px#222222;
 
         a {
           font-family: medium;
           text-decoration: none;
-          font-size: 1rem;
+          font-size: 1.1rem;
           color: #222222;
         }
       }
@@ -456,13 +458,45 @@ body {
     width: 100%;
     display: flex;
     flex-direction: row;
-    
+
     justify-content: center;
     gap: 2rem;
     img {
       width: 100%;
       object-fit: cover;
       object-position: center;
+    }
+  }
+}
+
+/*Subscribe Section*/
+.subscribe {
+  background: linear-gradient(to right, #4f4136, #222222, #272c2d);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 4rem 4rem;
+  p {
+    font-size: 5rem;
+    color: #fff;
+    font-family: semibold;
+  }
+  .button {
+    // background-color: green;
+    width: fit-content;
+    background: linear-gradient(to right, #eecd5e, #c6ce6c, #9ac572);
+    border: none;
+    border-radius: 50px;
+    padding: 0.5rem 2rem;
+    box-shadow: 5px 5px 10px#222222;
+    margin-top: 4%;
+
+    a {
+      font-family: medium;
+      text-decoration: none;
+      font-size: 1.1rem;
+      color: #222222;
     }
   }
 }

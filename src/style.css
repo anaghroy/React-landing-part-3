@@ -86,11 +86,12 @@ body {
   border: none;
   border-radius: 50px;
   padding: 0.5rem 2rem;
+  box-shadow: 5px 5px 10px #222222;
 }
 .main-content .left .left-bottom .button a {
   font-family: medium;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #222222;
 }
 .main-content .left .left-bottom .button-2 {
@@ -452,4 +453,35 @@ body {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+
+/*Subscribe Section*/
+.subscribe {
+  background: linear-gradient(to right, #4f4136, #222222, #272c2d);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 4rem 4rem;
+}
+.subscribe p {
+  font-size: 5rem;
+  color: #fff;
+  font-family: semibold;
+}
+.subscribe .button {
+  width: -moz-fit-content;
+  width: fit-content;
+  background: linear-gradient(to right, #eecd5e, #c6ce6c, #9ac572);
+  border: none;
+  border-radius: 50px;
+  padding: 0.5rem 2rem;
+  box-shadow: 5px 5px 10px #222222;
+  margin-top: 4%;
+}
+.subscribe .button a {
+  font-family: medium;
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #222222;
 }/*# sourceMappingURL=style.css.map */
