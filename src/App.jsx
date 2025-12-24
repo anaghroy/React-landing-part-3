@@ -10,17 +10,20 @@ import Popular from "./components/Popular.jsx";
 import Artist from "./components/Artist.jsx";
 import BrandImage from "./components/BrandImage.jsx";
 import Subscribe from "./components/Subscribe.jsx";
+import Footer from "./components/Footer.jsx";
+import { footerLinks } from "./Data/FooterData.js";
 
 const App = () => {
   return (
     <div>
-      <Navbar links={navLinks}/>
+      <Navbar links={navLinks} />
       <TopContent />
-      <Counter users={users} profile={profile}/>
-      <Popular/>
-      <Artist profiles={profiles}/>
-      <BrandImage brand={brand}/>
-      <Subscribe/>
+      <Counter users={users} profile={profile} />
+      <Popular />
+      <Artist profiles={profiles} />
+      <BrandImage brand={brand} />
+      <Subscribe />
+      <Footer footerLinks={footerLinks}/>
     </div>
   );
 };

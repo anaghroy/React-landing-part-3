@@ -1,6 +1,6 @@
 import artist1 from "../assets/images/Artist/Artist1.png";
 import profile1 from "../assets/images/Artist/profile1.jpg";
-import artist2 from "../assets/images/Artist/Artist2.png";
+import artist2 from "../assets/images/Artist/Artist3.png";
 import profile2 from "../assets/images/Artist/profile2.jpg";
 
 export const profiles = [

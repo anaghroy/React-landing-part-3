@@ -1,7 +1,3 @@
-import React from "react";
-import artist1 from "../assets/images/Artist/Artist1.png";
-import profile1 from "../assets/images/Artist/profile1.jpg";
-import artist2 from "../assets/images/Artist/Artist2.png";
 import { Quote } from "lucide-react";
 
 const Artist = ({ profiles }) => {
