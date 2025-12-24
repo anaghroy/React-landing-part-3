@@ -27,6 +27,45 @@
   src: url(./assets/fonts/manrope-extrabold.otf);
 }
 
+:root {
+  /* ===== Colors ===== */
+  --white: #ffffff;
+  --dark: #222222;
+  --muted: #748269;
+
+  /* ===== Gradients ===== */
+  --bg-main: linear-gradient(to right, #4f4136, #222222, #272c2d);
+  --bg-button-dark: linear-gradient(to left, #2c2b27, #232323);
+  --bg-button-light: linear-gradient(to right, #eecd5e, #c6ce6c, #9ac572);
+
+  --bg-card-1: linear-gradient(to right, #3d4432, #45432c);
+  --bg-card-2: linear-gradient(to right, #364332, #2e4940);
+  --bg-card-3: linear-gradient(to right, #5e5653, #4c3734);
+  --bg-card-4: linear-gradient(to right, #423a2f, #4a3a2d);
+
+  /* ===== Spacing ===== */
+  --p-xs: 0.5rem;
+  --p-sm: 1rem;
+  --p-md: 2rem;
+  --p-lg: 4rem;
+
+  --gap-sm: 0.5rem;
+  --gap-md: 1rem;
+  --gap-lg: 2rem;
+
+  /* ===== Radius ===== */
+  --radius-sm: 20px;
+  --radius-md: 30px;
+  --radius-full: 50px;
+
+  /* ===== Effects ===== */
+  --glass-bg: rgba(255, 255, 255, 0.08);
+  --glass-border: rgba(255, 255, 255, 0.18);
+  --blur: blur(16px);
+  --shadow-dark: 0 8px 32px rgba(0, 0, 0, 0.25);
+  --shadow-btn: 5px 5px 10px #222222;
+}
+
 /*scrollbar-background*/
 ::-webkit-scrollbar {
   background-color: #000000;
